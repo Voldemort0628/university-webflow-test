@@ -1,0 +1,22 @@
+{
+    "name": "growlink-university",
+    "version": "1.0.0",
+    "description": "Growlink University component for Webflow embedding",
+    "main": "dist/university.js",
+    "files": [
+      "dist/university.js",
+      "dist/university-styles.css"
+    ],
+    "keywords": [
+      "growlink",
+      "university",
+      "webflow"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Voldemort0628/university-webflow-test"
+    },
+    "author": "Growlink",
+    "license": "MIT",
+    "private": false
+  }
