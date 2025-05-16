@@ -1,0 +1,254 @@
+[
+  {
+    "id": "gid://shopify/Product/8851451969754",
+    "title": "LINKS Monitoring Bundle (Wi-Fi Version)",
+    "handle": "links-monitoring-bundle-wi-fi-version",
+    "description": "LINKS Monitor Only Bundle (Wi-Fi Version) Take control of your grow operation with the LINKS Monitor Only Bundle. This Wi-Fi-enabled kit is designed to provide advanced monitoring capabilities and includes everything you need to track key environmental metrics. With the LINKS Monitor Only Bundle, you'll gain real-time insights and data-driven control over your grow, no matter where you are. Perfect for hobby and craft growers who want to start small and scale big. Includes: canopyLINK: The central hub that connects all your sensors and links to the internet via Wi-Fi, ensuring seamless communication with the Growlink app. terraLINK: Monitor soil and substrate conditions like moisture, temperature, and EC to optimize root zone health. climaLINK: Track temperature, humidity, and CO2 levels to maintain the perfect growing environment.",
+    "tags": [],
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/46423535124698",
+        "title": "Default Title",
+        "sku": "",
+        "price": "1097.0"
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Product/8851452657882",
+    "title": "LINKS Irrigation Bundle",
+    "handle": "links-irrigation-bundle",
+    "description": "LINKS Irrigation Bundle \u2013 Everything You Need to Automate Your Irrigation The LINKS Irrigation Bundle is the ultimate kit to kickstart your cultivation automation. This all-in-one package includes a HUB, valveLINK, canopyLINK, Climalink, and Terralink \u2014giving you the power to monitor your grow's climate and substrate while controlling your irrigation seamlessly. With Growlink Copilot integration, you\u2019ll have intelligent control and insights at your fingertips, enabling you to optimize plant health, improve efficiency, and grow with confidence. Whether you\u2019re starting small or scaling big, the LINKS Starter Bundle provides the tools you need to cultivate smarter, not harder. Includes: HUB: The heart of your system, connecting all devices for seamless operation. valveLINK: Precision control for your irrigation system. canopyLINK: The central hub for connecting and managing all your sensors at the canopy level. Climalink: Accurate tracking of environmental climate conditions. 2 x Terralink: Real-time substrate moisture, temperature, and EC monitoring.",
+    "tags": [],
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/46423539319002",
+        "title": "Default Title",
+        "sku": "",
+        "price": "2094.0"
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Product/8861513777370",
+    "title": "LINKS HUB",
+    "handle": "links-hub",
+    "description": "Centralized hub for managing Growlink LINK devices",
+    "tags": [
+      "hub",
+      "links"
+    ],
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/46460988424410",
+        "title": "LINKS HUB",
+        "sku": "GLK-LINKS-001",
+        "price": "399.0"
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Product/8861513810138",
+    "title": "canopyLINK",
+    "handle": "canopylink",
+    "description": "Sensor for measuring canopy level climate data",
+    "tags": [
+      "canopy",
+      "links",
+      "sensor"
+    ],
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/46460988457178",
+        "title": "canopyLINK",
+        "sku": "GLK-LINKS-002",
+        "price": "299.0"
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Product/8861513875674",
+    "title": "Climalink",
+    "handle": "climalink",
+    "description": "Climate monitoring module",
+    "tags": [
+      "climate",
+      "links",
+      "monitor"
+    ],
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/46460988752090",
+        "title": "Climalink",
+        "sku": "GLK-LINKS-003",
+        "price": "399.0"
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Product/8861513908442",
+    "title": "Terralink Sensor for canopyLINK (2M Cable with M8)",
+    "handle": "terralink-sensor-for-canopylink-2m-cable-with-m8",
+    "description": "Terralink sensor with 2M cable",
+    "tags": [
+      "links",
+      "sensor",
+      "terralink"
+    ],
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/46460988784858",
+        "title": "Terralink Sensor for canopyLINK (2M Cable with M8)",
+        "sku": "GLK-LINKS-004",
+        "price": "299.0"
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Product/8861513941210",
+    "title": "4 channel lightLINK",
+    "handle": "4-channel-lightlink",
+    "description": "Control up to 4 lighting channels",
+    "tags": [
+      "light",
+      "lighting",
+      "links"
+    ],
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/46460988817626",
+        "title": "4 channel lightLINK",
+        "sku": "GLK-LINKS-005",
+        "price": "299.0"
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Product/8861513973978",
+    "title": "digital lightLINK",
+    "handle": "digital-lightlink",
+    "description": "Digital lighting control module",
+    "tags": [
+      "digital",
+      "light",
+      "links"
+    ],
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/46460988850394",
+        "title": "digital lightLINK",
+        "sku": "GLK-LINKS-006",
+        "price": "149.0"
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Product/8861514006746",
+    "title": "relayLINK",
+    "handle": "relaylink",
+    "description": "Relay control module for automated systems",
+    "tags": [
+      "links",
+      "relay"
+    ],
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/46460988883162",
+        "title": "relayLINK",
+        "sku": "GLK-LINKS-007",
+        "price": "199.0"
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Product/8861514039514",
+    "title": "quadLINK",
+    "handle": "quadlink",
+    "description": "Four output control module",
+    "tags": [
+      "links",
+      "quad"
+    ],
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/46460988915930",
+        "title": "quadLINK",
+        "sku": "GLK-LINKS-008",
+        "price": "299.0"
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Product/8861514105050",
+    "title": "batch tankLINK",
+    "handle": "batch-tanklink",
+    "description": "Batch tank controller",
+    "tags": [
+      "batch",
+      "links",
+      "tank"
+    ],
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/46460988981466",
+        "title": "batch tankLINK",
+        "sku": "GLK-LINKS-009",
+        "price": "699.0"
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Product/8861514170586",
+    "title": "valveLINK",
+    "handle": "valvelink",
+    "description": "Valve control module",
+    "tags": [
+      "links",
+      "valve"
+    ],
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/46460989407450",
+        "title": "valveLINK",
+        "sku": "GLK-LINKS-010",
+        "price": "299.0"
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Product/8861514203354",
+    "title": "nutriLINK",
+    "handle": "nutrilink",
+    "description": "Nutrient dosing system",
+    "tags": [
+      "links",
+      "nutrients"
+    ],
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/46460989440218",
+        "title": "nutriLINK",
+        "sku": "GLK-LINKS-011",
+        "price": "999.0"
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Product/8861514236122",
+    "title": "hvacLINK",
+    "handle": "hvaclink",
+    "description": "HVAC system control module",
+    "tags": [
+      "hvac",
+      "links"
+    ],
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/46460989472986",
+        "title": "hvacLINK",
+        "sku": "GLK-LINKS-012",
+        "price": "299.0"
+      }
+    ]
+  }
+]

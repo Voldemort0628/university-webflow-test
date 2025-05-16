@@ -1,0 +1,52 @@
+<!-- University Page Embed Code (Full Version) -->
+<div id="growlink-university-root"></div>
+
+<!-- Required dependencies -->
+<script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+
+<!-- Load Lucide icons (required by the component) -->
+<script src="https://unpkg.com/lucide@latest"></script>
+
+<!-- Load University Component CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/voldemort0628/university-webflow-test@e16d3e60e1b64fd6b80a8b8df5d1806348935835/growlink-grow-builder.css">
+
+<!-- Load University Component JS -->
+<script src="https://cdn.jsdelivr.net/gh/voldemort0628/university-webflow-test@e16d3e60e1b64fd6b80a8b8df5d1806348935835/university.js"></script>
+
+<!-- Initialize University Component -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Add loading indicator
+    document.getElementById('growlink-university-root').innerHTML = 
+      '<div style="text-align: center; padding: 40px 20px;">' +
+        '<h2 style="margin-bottom: 20px;">Loading Growlink University...</h2>' +
+        '<div style="width: 40px; height: 40px; margin: 0 auto; border: 4px solid #f3f3f3; border-top: 4px solid #f97316; border-radius: 50%; animation: spin 1s linear infinite;"></div>' +
+      '</div>' +
+      '<style>@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }</style>';
+    
+    // Wait a bit to ensure scripts are loaded
+    setTimeout(function() {
+      console.log("Checking for GrowlinkUniversity component...", window.GrowlinkUniversity);
+      if (window.GrowlinkUniversity) {
+        console.log("GrowlinkUniversity component found, initializing...");
+        const root = ReactDOM.createRoot(document.getElementById('growlink-university-root'));
+        root.render(
+          React.createElement(window.GrowlinkUniversity, {
+            autoRefresh: true,
+            refreshInterval: 5 * 60 * 1000
+          })
+        );
+      } else {
+        console.error("GrowlinkUniversity component not found. Check if the script loaded correctly.");
+        document.getElementById('growlink-university-root').innerHTML = 
+          '<div style="padding: 20px; text-align: center; border: 1px solid #ddd; border-radius: 8px;">' +
+            '<h2 style="color: #d32f2f; margin-bottom: 16px;">Error: Component Not Loaded</h2>' +
+            '<p style="margin-bottom: 8px;">The Growlink University component could not be loaded.</p>' +
+            '<p style="margin-bottom: 16px;">Please check that all scripts are loading correctly.</p>' +
+            '<button onclick="window.location.reload()" style="background-color: #f97316; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer;">Retry</button>' +
+          '</div>';
+      }
+    }, 1000);
+  });
+</script>
