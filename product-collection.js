@@ -76,7 +76,10 @@ Error generating stack: `+u.message+`
                   node {
                     id
                     title
-                    price
+                    price {
+                      amount
+                      currencyCode
+                    }
                     availableForSale
                   }
                 }
